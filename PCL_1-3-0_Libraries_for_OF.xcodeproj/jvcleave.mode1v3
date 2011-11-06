@@ -322,7 +322,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>03E9047714670CFF00A00E3E</string>
+										<string>03CCBE4A14671C7900C3C808</string>
 										<key>history</key>
 										<array>
 											<string>03E901F61466884A00A00E3E</string>
@@ -345,7 +345,7 @@
 											<string>03E9040C1466A20E00A00E3E</string>
 											<string>03E9047314670AEC00A00E3E</string>
 											<string>03E9047414670AEC00A00E3E</string>
-											<string>03E9047514670AEC00A00E3E</string>
+											<string>03E9047714670CFF00A00E3E</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -357,14 +357,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {922, 775}}</string>
+								<string>{{0, 0}, {922, 771}}</string>
 								<key>RubberWindowFrame</key>
 								<string>791 354 1404 1002 0 0 2560 1578 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>775pt</string>
+							<string>771pt</string>
 						</dict>
 						<dict>
 							<key>ContentConfiguration</key>
@@ -377,14 +377,14 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 780}, {922, 181}}</string>
+								<string>{{0, 776}, {922, 185}}</string>
 								<key>RubberWindowFrame</key>
 								<string>791 354 1404 1002 0 0 2560 1578 </string>
 							</dict>
 							<key>Module</key>
 							<string>XCDetailModule</string>
 							<key>Proportion</key>
-							<string>181pt</string>
+							<string>185pt</string>
 						</dict>
 					</array>
 					<key>Proportion</key>
@@ -403,9 +403,9 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>03E9FF2A1466809600A00E3E</string>
+				<string>03CCBE4014671C7900C3C808</string>
 				<string>1CE0B1FE06471DED0097A5F4</string>
-				<string>03E9FF2B1466809600A00E3E</string>
+				<string>03CCBE4114671C7900C3C808</string>
 				<string>1CE0B20306471E060097A5F4</string>
 				<string>1CE0B20506471E060097A5F4</string>
 			</array>
@@ -543,9 +543,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>1C530D57069F1CE1000CFCEE</string>
 		<string>03E901DA1466862E00A00E3E</string>
-		<string>/Users/jvcleave/Desktop/openFrameworks/apps/PCL_APPS/PCL_1-3_0_Libraries_for_OF/PCL_1-3_0_Libraries_for_OF.xcodeproj</string>
+		<string>/Users/jvcleave/Desktop/openFrameworks/apps/PCL_APPS/GITHUB/PCL_1-3-0_Libraries_for_OF/PCL_1-3-0_Libraries_for_OF.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
 	<string>791 354 1404 1002 0 0 2560 1578 </string>
@@ -569,7 +568,7 @@
 								<key>PBXProjectModuleGUID</key>
 								<string>1CD0528F0623707200166675</string>
 								<key>PBXProjectModuleLabel</key>
-								<string>concave_hull.hpp</string>
+								<string></string>
 								<key>StatusBarVisibility</key>
 								<true/>
 							</dict>
@@ -586,8 +585,6 @@
 							<string>256pt</string>
 						</dict>
 						<dict>
-							<key>BecomeActive</key>
-							<true/>
 							<key>ContentConfiguration</key>
 							<dict>
 								<key>PBXProjectModuleGUID</key>
@@ -627,7 +624,7 @@
 			<key>TableOfContents</key>
 			<array>
 				<string>03E901DA1466862E00A00E3E</string>
-				<string>03E901DB1466862E00A00E3E</string>
+				<string>03CCBE4214671C7900C3C808</string>
 				<string>1CD0528F0623707200166675</string>
 				<string>XCMainBuildResultsModuleGUID</string>
 			</array>
