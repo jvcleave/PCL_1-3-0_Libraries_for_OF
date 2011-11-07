@@ -290,9 +290,7 @@
 		03E900041466857C00A00E3E /* statistical_multiscale_interest_region_extraction.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistical_multiscale_interest_region_extraction.cpp; path = "pcl_1-3-0/features/src/statistical_multiscale_interest_region_extraction.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900051466857C00A00E3E /* usc.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = usc.cpp; path = "pcl_1-3-0/features/src/usc.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900061466857C00A00E3E /* vfh.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vfh.cpp; path = "pcl_1-3-0/features/src/vfh.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900081466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/features/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900091466857C00A00E3E /* test_narf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_narf.cpp; path = "pcl_1-3-0/features/test/test_narf.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9000B1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/filters/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9000F1466857C00A00E3E /* approximate_voxel_grid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = approximate_voxel_grid.h; path = "pcl_1-3-0/filters/include/pcl/filters/approximate_voxel_grid.h"; sourceTree = SOURCE_ROOT; };
 		03E900101466857C00A00E3E /* bilateral.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bilateral.h; path = "pcl_1-3-0/filters/include/pcl/filters/bilateral.h"; sourceTree = SOURCE_ROOT; };
 		03E900111466857C00A00E3E /* color.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = color.h; path = "pcl_1-3-0/filters/include/pcl/filters/color.h"; sourceTree = SOURCE_ROOT; };
@@ -335,9 +333,6 @@
 		03E900381466857C00A00E3E /* random_sample.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = random_sample.cpp; path = "pcl_1-3-0/filters/src/random_sample.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900391466857C00A00E3E /* statistical_outlier_removal.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = statistical_outlier_removal.cpp; path = "pcl_1-3-0/filters/src/statistical_outlier_removal.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9003A1466857C00A00E3E /* voxel_grid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = voxel_grid.cpp; path = "pcl_1-3-0/filters/src/voxel_grid.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9003C1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/filters/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		03E9003E1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/filters/tools/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		03E900401466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/io/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900441466857C00A00E3E /* color_coding.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = color_coding.h; path = "pcl_1-3-0/io/include/pcl/compression/color_coding.h"; sourceTree = SOURCE_ROOT; };
 		03E900451466857C00A00E3E /* compression_profiles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = compression_profiles.h; path = "pcl_1-3-0/io/include/pcl/compression/compression_profiles.h"; sourceTree = SOURCE_ROOT; };
 		03E900461466857C00A00E3E /* entropy_range_coder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = entropy_range_coder.h; path = "pcl_1-3-0/io/include/pcl/compression/entropy_range_coder.h"; sourceTree = SOURCE_ROOT; };
@@ -395,26 +390,21 @@
 		03E900801466857C00A00E3E /* ply_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ply_io.cpp; path = "pcl_1-3-0/io/src/ply_io.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900811466857C00A00E3E /* vtk_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vtk_io.cpp; path = "pcl_1-3-0/io/src/vtk_io.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900821466857C00A00E3E /* vtk_lib_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vtk_lib_io.cpp; path = "pcl_1-3-0/io/src/vtk_lib_io.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900841466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/io/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900851466857C00A00E3E /* test_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_io.cpp; path = "pcl_1-3-0/io/test/test_io.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900861466857C00A00E3E /* test_iterators.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_iterators.cpp; path = "pcl_1-3-0/io/test/test_iterators.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900871466857C00A00E3E /* test_range_coder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_range_coder.cpp; path = "pcl_1-3-0/io/test/test_range_coder.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900891466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/io/tools/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9008A1466857C00A00E3E /* convert_pcd_ascii_binary.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = convert_pcd_ascii_binary.cpp; path = "pcl_1-3-0/io/tools/convert_pcd_ascii_binary.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9008B1466857C00A00E3E /* openni_grab_frame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = openni_grab_frame.cpp; path = "pcl_1-3-0/io/tools/openni_grab_frame.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9008C1466857C00A00E3E /* openni_grabber_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = openni_grabber_example.cpp; path = "pcl_1-3-0/io/tools/openni_grabber_example.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9008D1466857C00A00E3E /* openni_io.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = openni_io.cpp; path = "pcl_1-3-0/io/tools/openni_io.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9008E1466857C00A00E3E /* pcd_convert_NaN_nan.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pcd_convert_NaN_nan.cpp; path = "pcl_1-3-0/io/tools/pcd_convert_NaN_nan.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900901466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/kdtree/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900951466857C00A00E3E /* io.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = io.hpp; path = "pcl_1-3-0/kdtree/include/pcl/kdtree/impl/io.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900961466857C00A00E3E /* kdtree_flann.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = kdtree_flann.hpp; path = "pcl_1-3-0/kdtree/include/pcl/kdtree/impl/kdtree_flann.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900971466857C00A00E3E /* io.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = io.h; path = "pcl_1-3-0/kdtree/include/pcl/kdtree/io.h"; sourceTree = SOURCE_ROOT; };
 		03E900981466857C00A00E3E /* kdtree.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdtree.h; path = "pcl_1-3-0/kdtree/include/pcl/kdtree/kdtree.h"; sourceTree = SOURCE_ROOT; };
 		03E900991466857C00A00E3E /* kdtree_flann.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = kdtree_flann.h; path = "pcl_1-3-0/kdtree/include/pcl/kdtree/kdtree_flann.h"; sourceTree = SOURCE_ROOT; };
 		03E9009B1466857C00A00E3E /* kdtree_flann.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kdtree_flann.cpp; path = "pcl_1-3-0/kdtree/src/kdtree_flann.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9009D1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/kdtree/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9009E1466857C00A00E3E /* test_kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_kdtree.cpp; path = "pcl_1-3-0/kdtree/test/test_kdtree.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900A01466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/keypoints/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900A41466857C00A00E3E /* harris_keypoint3D.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = harris_keypoint3D.h; path = "pcl_1-3-0/keypoints/include/pcl/keypoints/harris_keypoint3D.h"; sourceTree = SOURCE_ROOT; };
 		03E900A61466857C00A00E3E /* harris_keypoint3D.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = harris_keypoint3D.hpp; path = "pcl_1-3-0/keypoints/include/pcl/keypoints/impl/harris_keypoint3D.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900A71466857C00A00E3E /* keypoint.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = keypoint.hpp; path = "pcl_1-3-0/keypoints/include/pcl/keypoints/impl/keypoint.hpp"; sourceTree = SOURCE_ROOT; };
@@ -431,8 +421,6 @@
 		03E900B31466857C00A00E3E /* sift_keypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sift_keypoint.cpp; path = "pcl_1-3-0/keypoints/src/sift_keypoint.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900B41466857C00A00E3E /* smoothed_surfaces_keypoint.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = smoothed_surfaces_keypoint.cpp; path = "pcl_1-3-0/keypoints/src/smoothed_surfaces_keypoint.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900B51466857C00A00E3E /* uniform_sampling.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = uniform_sampling.cpp; path = "pcl_1-3-0/keypoints/src/uniform_sampling.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900B71466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/keypoints/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
-		03E900B91466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/octree/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900BE1466857C00A00E3E /* octree2buf_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = octree2buf_base.hpp; path = "pcl_1-3-0/octree/include/pcl/octree/impl/octree2buf_base.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900BF1466857C00A00E3E /* octree_base.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = octree_base.hpp; path = "pcl_1-3-0/octree/include/pcl/octree/impl/octree_base.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900C01466857C00A00E3E /* octree_iterator.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = octree_iterator.hpp; path = "pcl_1-3-0/octree/include/pcl/octree/impl/octree_iterator.hpp"; sourceTree = SOURCE_ROOT; };
@@ -455,16 +443,13 @@
 		03E900D11466857C00A00E3E /* octree_pointcloud_voxelcentroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = octree_pointcloud_voxelcentroid.h; path = "pcl_1-3-0/octree/include/pcl/octree/octree_pointcloud_voxelcentroid.h"; sourceTree = SOURCE_ROOT; };
 		03E900D21466857C00A00E3E /* octree_search.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = octree_search.h; path = "pcl_1-3-0/octree/include/pcl/octree/octree_search.h"; sourceTree = SOURCE_ROOT; };
 		03E900D41466857C00A00E3E /* octree_impl.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = octree_impl.cpp; path = "pcl_1-3-0/octree/src/octree_impl.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900D61466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/octree/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900D71466857C00A00E3E /* test_octree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_octree.cpp; path = "pcl_1-3-0/octree/test/test_octree.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900D91466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/range_image/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900DE1466857C00A00E3E /* range_image.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = range_image.hpp; path = "pcl_1-3-0/range_image/include/pcl/range_image/impl/range_image.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900DF1466857C00A00E3E /* range_image_planar.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = range_image_planar.hpp; path = "pcl_1-3-0/range_image/include/pcl/range_image/impl/range_image_planar.hpp"; sourceTree = SOURCE_ROOT; };
 		03E900E01466857C00A00E3E /* range_image.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = range_image.h; path = "pcl_1-3-0/range_image/include/pcl/range_image/range_image.h"; sourceTree = SOURCE_ROOT; };
 		03E900E11466857C00A00E3E /* range_image_planar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = range_image_planar.h; path = "pcl_1-3-0/range_image/include/pcl/range_image/range_image_planar.h"; sourceTree = SOURCE_ROOT; };
 		03E900E31466857C00A00E3E /* range_image.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = range_image.cpp; path = "pcl_1-3-0/range_image/src/range_image.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900E41466857C00A00E3E /* range_image_planar.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = range_image_planar.cpp; path = "pcl_1-3-0/range_image/src/range_image_planar.cpp"; sourceTree = SOURCE_ROOT; };
-		03E900E61466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/registration/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E900EA1466857C00A00E3E /* correspondence_estimation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = correspondence_estimation.h; path = "pcl_1-3-0/registration/include/pcl/registration/correspondence_estimation.h"; sourceTree = SOURCE_ROOT; };
 		03E900EB1466857C00A00E3E /* correspondence_rejection.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = correspondence_rejection.h; path = "pcl_1-3-0/registration/include/pcl/registration/correspondence_rejection.h"; sourceTree = SOURCE_ROOT; };
 		03E900EC1466857C00A00E3E /* correspondence_rejection_distance.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = correspondence_rejection_distance.h; path = "pcl_1-3-0/registration/include/pcl/registration/correspondence_rejection_distance.h"; sourceTree = SOURCE_ROOT; };
@@ -517,7 +502,6 @@
 		03E9011D1466857C00A00E3E /* ppf_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ppf_registration.cpp; path = "pcl_1-3-0/registration/src/ppf_registration.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9011E1466857C00A00E3E /* pyramid_feature_matching.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = pyramid_feature_matching.cpp; path = "pcl_1-3-0/registration/src/pyramid_feature_matching.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9011F1466857C00A00E3E /* registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = registration.cpp; path = "pcl_1-3-0/registration/src/registration.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901211466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/sample_consensus/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901261466857C00A00E3E /* lmeds.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = lmeds.hpp; path = "pcl_1-3-0/sample_consensus/include/pcl/sample_consensus/impl/lmeds.hpp"; sourceTree = SOURCE_ROOT; };
 		03E901271466857C00A00E3E /* mlesac.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = mlesac.hpp; path = "pcl_1-3-0/sample_consensus/include/pcl/sample_consensus/impl/mlesac.hpp"; sourceTree = SOURCE_ROOT; };
 		03E901281466857C00A00E3E /* msac.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = msac.hpp; path = "pcl_1-3-0/sample_consensus/include/pcl/sample_consensus/impl/msac.hpp"; sourceTree = SOURCE_ROOT; };
@@ -579,7 +563,6 @@
 		03E901611466857C00A00E3E /* sac_model_registration.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sac_model_registration.cpp; path = "pcl_1-3-0/sample_consensus/src/sac_model_registration.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901621466857C00A00E3E /* sac_model_sphere.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sac_model_sphere.cpp; path = "pcl_1-3-0/sample_consensus/src/sac_model_sphere.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901631466857C00A00E3E /* sac_model_stick.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sac_model_stick.cpp; path = "pcl_1-3-0/sample_consensus/src/sac_model_stick.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901651466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/search/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901691466857C00A00E3E /* auto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = auto.h; path = "pcl_1-3-0/search/include/pcl/search/auto.h"; sourceTree = SOURCE_ROOT; };
 		03E9016B1466857C00A00E3E /* auto.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = auto.hpp; path = "pcl_1-3-0/search/include/pcl/search/impl/auto.hpp"; sourceTree = SOURCE_ROOT; };
 		03E9016C1466857C00A00E3E /* organized.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; name = organized.hpp; path = "pcl_1-3-0/search/include/pcl/search/impl/organized.hpp"; sourceTree = SOURCE_ROOT; };
@@ -591,11 +574,9 @@
 		03E901731466857C00A00E3E /* kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = kdtree.cpp; path = "pcl_1-3-0/search/src/kdtree.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901741466857C00A00E3E /* octree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = octree.cpp; path = "pcl_1-3-0/search/src/octree.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901751466857C00A00E3E /* organized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = organized.cpp; path = "pcl_1-3-0/search/src/organized.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901771466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/search/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901781466857C00A00E3E /* test_kdtree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_kdtree.cpp; path = "pcl_1-3-0/search/test/test_kdtree.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901791466857C00A00E3E /* test_octree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_octree.cpp; path = "pcl_1-3-0/search/test/test_octree.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9017A1466857C00A00E3E /* test_organized.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_organized.cpp; path = "pcl_1-3-0/search/test/test_organized.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9017C1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/segmentation/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901801466857C00A00E3E /* extract_clusters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extract_clusters.h; path = "pcl_1-3-0/segmentation/include/pcl/segmentation/extract_clusters.h"; sourceTree = SOURCE_ROOT; };
 		03E901811466857C00A00E3E /* extract_labeled_clusters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extract_labeled_clusters.h; path = "pcl_1-3-0/segmentation/include/pcl/segmentation/extract_labeled_clusters.h"; sourceTree = SOURCE_ROOT; };
 		03E901821466857C00A00E3E /* extract_polygonal_prism_data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = extract_polygonal_prism_data.h; path = "pcl_1-3-0/segmentation/include/pcl/segmentation/extract_polygonal_prism_data.h"; sourceTree = SOURCE_ROOT; };
@@ -610,7 +591,6 @@
 		03E9018D1466857C00A00E3E /* extract_polygonal_prism_data.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = extract_polygonal_prism_data.cpp; path = "pcl_1-3-0/segmentation/src/extract_polygonal_prism_data.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9018E1466857C00A00E3E /* sac_segmentation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = sac_segmentation.cpp; path = "pcl_1-3-0/segmentation/src/sac_segmentation.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9018F1466857C00A00E3E /* segment_differences.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = segment_differences.cpp; path = "pcl_1-3-0/segmentation/src/segment_differences.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901911466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/surface/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901951466857C00A00E3E /* concave_hull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = concave_hull.h; path = "pcl_1-3-0/surface/include/pcl/surface/concave_hull.h"; sourceTree = SOURCE_ROOT; };
 		03E901961466857C00A00E3E /* convex_hull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = convex_hull.h; path = "pcl_1-3-0/surface/include/pcl/surface/convex_hull.h"; sourceTree = SOURCE_ROOT; };
 		03E901971466857C00A00E3E /* ear_clipping.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ear_clipping.h; path = "pcl_1-3-0/surface/include/pcl/surface/ear_clipping.h"; sourceTree = SOURCE_ROOT; };
@@ -652,7 +632,6 @@
 		03E901BD1466857C00A00E3E /* surfel_smoothing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = surfel_smoothing.cpp; path = "pcl_1-3-0/surface/src/surfel_smoothing.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901BE1466857C00A00E3E /* texture_mapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = texture_mapping.cpp; path = "pcl_1-3-0/surface/src/texture_mapping.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901BF1466857C00A00E3E /* vtk_smoother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vtk_smoother.cpp; path = "pcl_1-3-0/surface/src/vtk_smoother.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901C11466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/surface/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E901C21466857C00A00E3E /* surface_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = surface_example.cpp; path = "pcl_1-3-0/surface/test/surface_example.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901C7146685D800A00E3E /* pcl_common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E901FC146688AD00A00E3E /* pcl_octree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_octree.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -707,7 +686,6 @@
 		03E904301466A2DA00A00E3E /* pcl_registration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_registration.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E904421466A33B00A00E3E /* pcl_keypoints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_keypoints.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PCL_LIBS.xcconfig; sourceTree = "<group>"; };
-		03E9FF451466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/common/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9FF491466857C00A00E3E /* angles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = angles.h; path = "pcl_1-3-0/common/include/pcl/common/angles.h"; sourceTree = SOURCE_ROOT; };
 		03E9FF4A1466857C00A00E3E /* bivariate_polynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bivariate_polynomial.h; path = "pcl_1-3-0/common/include/pcl/common/bivariate_polynomial.h"; sourceTree = SOURCE_ROOT; };
 		03E9FF4B1466857C00A00E3E /* centroid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = centroid.h; path = "pcl_1-3-0/common/include/pcl/common/centroid.h"; sourceTree = SOURCE_ROOT; };
@@ -784,11 +762,9 @@
 		03E9FF991466857C00A00E3E /* poses_from_matches.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = poses_from_matches.cpp; path = "pcl_1-3-0/common/src/poses_from_matches.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9FF9A1466857C00A00E3E /* print.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = print.cpp; path = "pcl_1-3-0/common/src/print.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9FF9B1466857C00A00E3E /* time_trigger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = time_trigger.cpp; path = "pcl_1-3-0/common/src/time_trigger.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9FF9D1466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/common/test/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9FF9E1466857C00A00E3E /* test_common.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_common.cpp; path = "pcl_1-3-0/common/test/test_common.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9FF9F1466857C00A00E3E /* test_pca.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_pca.cpp; path = "pcl_1-3-0/common/test/test_pca.cpp"; sourceTree = SOURCE_ROOT; };
 		03E9FFA01466857C00A00E3E /* test_vector_average.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = test_vector_average.cpp; path = "pcl_1-3-0/common/test/test_vector_average.cpp"; sourceTree = SOURCE_ROOT; };
-		03E9FFA21466857C00A00E3E /* CMakeLists.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = CMakeLists.txt; path = "pcl_1-3-0/features/CMakeLists.txt"; sourceTree = SOURCE_ROOT; };
 		03E9FFA61466857C00A00E3E /* 3dsc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = 3dsc.h; path = "pcl_1-3-0/features/include/pcl/features/3dsc.h"; sourceTree = SOURCE_ROOT; };
 		03E9FFA71466857C00A00E3E /* boundary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = boundary.h; path = "pcl_1-3-0/features/include/pcl/features/boundary.h"; sourceTree = SOURCE_ROOT; };
 		03E9FFA81466857C00A00E3E /* cvfh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = cvfh.h; path = "pcl_1-3-0/features/include/pcl/features/cvfh.h"; sourceTree = SOURCE_ROOT; };
@@ -987,7 +963,6 @@
 		03E900071466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E900081466857C00A00E3E /* CMakeLists.txt */,
 				03E900091466857C00A00E3E /* test_narf.cpp */,
 			);
 			name = test;
@@ -997,7 +972,6 @@
 		03E9000A1466857C00A00E3E /* filters */ = {
 			isa = PBXGroup;
 			children = (
-				03E9000B1466857C00A00E3E /* CMakeLists.txt */,
 				03E9000C1466857C00A00E3E /* include */,
 				03E9002C1466857C00A00E3E /* src */,
 				03E9003B1466857C00A00E3E /* test */,
@@ -1095,7 +1069,6 @@
 		03E9003B1466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E9003C1466857C00A00E3E /* CMakeLists.txt */,
 			);
 			name = test;
 			path = "pcl_1-3-0/filters/test";
@@ -1104,7 +1077,6 @@
 		03E9003D1466857C00A00E3E /* tools */ = {
 			isa = PBXGroup;
 			children = (
-				03E9003E1466857C00A00E3E /* CMakeLists.txt */,
 			);
 			name = tools;
 			path = "pcl_1-3-0/filters/tools";
@@ -1113,7 +1085,6 @@
 		03E9003F1466857C00A00E3E /* io */ = {
 			isa = PBXGroup;
 			children = (
-				03E900401466857C00A00E3E /* CMakeLists.txt */,
 				03E900411466857C00A00E3E /* include */,
 				03E9006B1466857C00A00E3E /* src */,
 				03E900831466857C00A00E3E /* test */,
@@ -1262,7 +1233,6 @@
 		03E900831466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E900841466857C00A00E3E /* CMakeLists.txt */,
 				03E900851466857C00A00E3E /* test_io.cpp */,
 				03E900861466857C00A00E3E /* test_iterators.cpp */,
 				03E900871466857C00A00E3E /* test_range_coder.cpp */,
@@ -1274,7 +1244,6 @@
 		03E900881466857C00A00E3E /* tools */ = {
 			isa = PBXGroup;
 			children = (
-				03E900891466857C00A00E3E /* CMakeLists.txt */,
 				03E9008A1466857C00A00E3E /* convert_pcd_ascii_binary.cpp */,
 				03E9008B1466857C00A00E3E /* openni_grab_frame.cpp */,
 				03E9008C1466857C00A00E3E /* openni_grabber_example.cpp */,
@@ -1288,7 +1257,6 @@
 		03E9008F1466857C00A00E3E /* kdtree */ = {
 			isa = PBXGroup;
 			children = (
-				03E900901466857C00A00E3E /* CMakeLists.txt */,
 				03E900911466857C00A00E3E /* include */,
 				03E9009A1466857C00A00E3E /* src */,
 				03E9009C1466857C00A00E3E /* test */,
@@ -1349,7 +1317,6 @@
 		03E9009C1466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E9009D1466857C00A00E3E /* CMakeLists.txt */,
 				03E9009E1466857C00A00E3E /* test_kdtree.cpp */,
 			);
 			name = test;
@@ -1359,7 +1326,6 @@
 		03E9009F1466857C00A00E3E /* keypoints */ = {
 			isa = PBXGroup;
 			children = (
-				03E900A01466857C00A00E3E /* CMakeLists.txt */,
 				03E900A11466857C00A00E3E /* include */,
 				03E900B01466857C00A00E3E /* src */,
 				03E900B61466857C00A00E3E /* test */,
@@ -1430,7 +1396,6 @@
 		03E900B61466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E900B71466857C00A00E3E /* CMakeLists.txt */,
 			);
 			name = test;
 			path = "pcl_1-3-0/keypoints/test";
@@ -1439,7 +1404,6 @@
 		03E900B81466857C00A00E3E /* octree */ = {
 			isa = PBXGroup;
 			children = (
-				03E900B91466857C00A00E3E /* CMakeLists.txt */,
 				03E900BA1466857C00A00E3E /* include */,
 				03E900D31466857C00A00E3E /* src */,
 				03E900D51466857C00A00E3E /* test */,
@@ -1516,7 +1480,6 @@
 		03E900D51466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E900D61466857C00A00E3E /* CMakeLists.txt */,
 				03E900D71466857C00A00E3E /* test_octree.cpp */,
 			);
 			name = test;
@@ -1526,7 +1489,6 @@
 		03E900D81466857C00A00E3E /* range_image */ = {
 			isa = PBXGroup;
 			children = (
-				03E900D91466857C00A00E3E /* CMakeLists.txt */,
 				03E900DA1466857C00A00E3E /* include */,
 				03E900E21466857C00A00E3E /* src */,
 			);
@@ -1586,7 +1548,6 @@
 		03E900E51466857C00A00E3E /* registration */ = {
 			isa = PBXGroup;
 			children = (
-				03E900E61466857C00A00E3E /* CMakeLists.txt */,
 				03E900E71466857C00A00E3E /* include */,
 				03E9011C1466857C00A00E3E /* src */,
 			);
@@ -1692,7 +1653,6 @@
 		03E901201466857C00A00E3E /* sample_consensus */ = {
 			isa = PBXGroup;
 			children = (
-				03E901211466857C00A00E3E /* CMakeLists.txt */,
 				03E901221466857C00A00E3E /* include */,
 				03E901501466857C00A00E3E /* src */,
 			);
@@ -1807,7 +1767,6 @@
 		03E901641466857C00A00E3E /* search */ = {
 			isa = PBXGroup;
 			children = (
-				03E901651466857C00A00E3E /* CMakeLists.txt */,
 				03E901661466857C00A00E3E /* include */,
 				03E901721466857C00A00E3E /* src */,
 				03E901761466857C00A00E3E /* test */,
@@ -1873,7 +1832,6 @@
 		03E901761466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E901771466857C00A00E3E /* CMakeLists.txt */,
 				03E901781466857C00A00E3E /* test_kdtree.cpp */,
 				03E901791466857C00A00E3E /* test_octree.cpp */,
 				03E9017A1466857C00A00E3E /* test_organized.cpp */,
@@ -1885,7 +1843,6 @@
 		03E9017B1466857C00A00E3E /* segmentation */ = {
 			isa = PBXGroup;
 			children = (
-				03E9017C1466857C00A00E3E /* CMakeLists.txt */,
 				03E9017D1466857C00A00E3E /* include */,
 				03E9018B1466857C00A00E3E /* src */,
 			);
@@ -1953,7 +1910,6 @@
 		03E901901466857C00A00E3E /* surface */ = {
 			isa = PBXGroup;
 			children = (
-				03E901911466857C00A00E3E /* CMakeLists.txt */,
 				03E901921466857C00A00E3E /* include */,
 				03E901B11466857C00A00E3E /* src */,
 				03E901C01466857C00A00E3E /* test */,
@@ -2049,7 +2005,6 @@
 		03E901C01466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E901C11466857C00A00E3E /* CMakeLists.txt */,
 				03E901C21466857C00A00E3E /* surface_example.cpp */,
 			);
 			name = test;
@@ -2181,7 +2136,6 @@
 		03E9FF441466857C00A00E3E /* common */ = {
 			isa = PBXGroup;
 			children = (
-				03E9FF451466857C00A00E3E /* CMakeLists.txt */,
 				03E9FF461466857C00A00E3E /* include */,
 				03E9FF911466857C00A00E3E /* src */,
 				03E9FF9C1466857C00A00E3E /* test */,
@@ -2357,7 +2311,6 @@
 		03E9FF9C1466857C00A00E3E /* test */ = {
 			isa = PBXGroup;
 			children = (
-				03E9FF9D1466857C00A00E3E /* CMakeLists.txt */,
 				03E9FF9E1466857C00A00E3E /* test_common.cpp */,
 				03E9FF9F1466857C00A00E3E /* test_pca.cpp */,
 				03E9FFA01466857C00A00E3E /* test_vector_average.cpp */,
@@ -2369,7 +2322,6 @@
 		03E9FFA11466857C00A00E3E /* features */ = {
 			isa = PBXGroup;
 			children = (
-				03E9FFA21466857C00A00E3E /* CMakeLists.txt */,
 				03E9FFA31466857C00A00E3E /* include */,
 				03E9FFE81466857C00A00E3E /* src */,
 				03E900071466857C00A00E3E /* test */,
