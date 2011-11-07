@@ -64,17 +64,29 @@ OpenNIDevice::OpenNIDevice (xn::Context& context, const xn::NodeInfo& device_nod
   XnStatus rc;
 
     xn::EnumerationErrors errors;
-    rc = context_.InitFromXmlFile("/etc/openni/SamplesConfig.xml", &errors);
+	//JVC: wonder why different than primesense below - because support more sensors?
+	rc = context_.InitFromXmlFile("/etc/openni/SamplesConfig.xml", &errors);
+	//desperate attempt for absolute path
+    //rc = context_.InitFromXmlFile("/Users/jvcleave/Desktop/openFrameworks/apps/PCL_APPS/PCL_1-3-0_OF_Examples/bin/data/openni/config/ofxopenni_config.xml", &errors);
     if (rc == XN_STATUS_NO_NODE_PRESENT)
     {
             XnChar strError[1024];
             errors.ToString(strError, 1024);
             printf("%s\n", strError);
-    }
-    else if (rc != XN_STATUS_OK)
+    }else {
+		std::cout << "printing anyway" << std::endl;
+		XnChar strError[1024];
+		errors.ToString(strError, 1024);
+		printf("%s\n", strError);
+	}
+
+    if (rc != XN_STATUS_OK)
     {
             printf("Open failed: %s\n", xnGetStatusString(rc));
-    }
+    }else {
+		printf("XN_STATUS_OK: %s\n", xnGetStatusString(rc));
+	}
+
 
   XnStatus status = context_.FindExistingNode(XN_NODE_TYPE_DEPTH, depth_generator_);
   if (status != XN_STATUS_OK)
@@ -148,6 +160,7 @@ OpenNIDevice::OpenNIDevice (xn::Context& context, const xn::NodeInfo& device_nod
 
     xn::EnumerationErrors errors;
     rc = context_.InitFromXmlFile("/etc/primesense/SamplesConfig.xml", &errors);
+	//rc = context_.InitFromXmlFile("/Users/jvcleave/Desktop/openFrameworks/apps/PCL_APPS/PCL_1-3-0_OF_Examples/bin/data/openni/config/ofxopenni_config.xml", &errors);
     if (rc == XN_STATUS_NO_NODE_PRESENT)
     {
             XnChar strError[1024];

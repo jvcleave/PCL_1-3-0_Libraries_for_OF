@@ -289,7 +289,7 @@ void OpenNIGrabber::setupDevice(const std::string& device_id, const Mode& depth_
     else if (device_id[0] == '#')
     {
       unsigned index = atoi(device_id.c_str() + 1);
-      //printf("[%s] searching for device with index = %d\n", getName().c_str(), index);
+      printf("[%s] searching for device with index = %d\n", getName().c_str(), index);
       device_ = driver.getDeviceByIndex(index - 1);
     }
 #ifndef _WIN32
@@ -298,12 +298,12 @@ void OpenNIGrabber::setupDevice(const std::string& device_id, const Mode& depth_
       size_t pos = device_id.find('@');
       unsigned bus = atoi(device_id.substr(0, pos).c_str());
       unsigned address = atoi(device_id.substr(pos + 1, device_id.length() - pos - 1).c_str());
-      //printf("[%s] searching for device with bus@address = %d@%d\n", getName().c_str(), bus, address);
+      printf("[%s] searching for device with bus@address = %d@%d\n", getName().c_str(), bus, address);
       device_ = driver.getDeviceByAddress(bus, address);
     }
     else if (!device_id.empty())
     {
-      //printf("[%s] searching for device with serial number = %s\n", getName().c_str(), device_id.c_str());
+      printf("[%s] searching for device with serial number = %s\n", getName().c_str(), device_id.c_str());
       device_ = driver.getDeviceBySerialNumber(device_id);
     }
 #endif
@@ -323,8 +323,8 @@ void OpenNIGrabber::setupDevice(const std::string& device_id, const Mode& depth_
   {
     THROW_PCL_IO_EXCEPTION("unknown error occured");
   }
-  //printf("[%s] Opened '%s' on bus %d:%d with serial number '%s'\n", getName().c_str(),
-  //device_->getProductName(), device_->getBus(), device_->getAddress(), device_->getSerialNumber());
+  printf("[%s] Opened '%s' on bus %d:%d with serial number '%s'\n", getName().c_str(),
+  device_->getProductName(), device_->getBus(), device_->getAddress(), device_->getSerialNumber());
 
   // Set the selected output mode
   if (depth_mode != OpenNI_Default_Mode)
