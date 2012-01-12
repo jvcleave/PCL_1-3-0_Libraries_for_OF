@@ -1,5 +1,6 @@
 // !$*UTF8*$!
 {
+<<<<<<< Updated upstream
 	0352D6791467BC130050D784 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 0352D67A1467BC130050D784 /* XnVersion.h */;
@@ -40,9 +41,26 @@
 		isa = PBXTextBookmark;
 		fRef = 0352D67C1467BC130050D784 /* XnVersion.h */;
 		name = "XnVersion.h: 1";
+=======
+	037A464114BEAA0B00C38F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
+		name = "PCL_LIBS.xcconfig: 23";
+>>>>>>> Stashed changes
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 4269;
 		rType = 0;
+		vrLen = 4269;
+		vrLoc = 0;
+	};
+	037A465D14BEACC100C38F1D /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
+		name = "PCL_LIBS.xcconfig: 47";
+		rLen = 0;
+		rLoc = 5295;
+		rType = 0;
+<<<<<<< Updated upstream
 		vrLen = 1207;
 		vrLoc = 1707;
 	};
@@ -71,6 +89,9 @@
 		rLoc = 369;
 		rType = 0;
 		vrLen = 3161;
+=======
+		vrLen = 976;
+>>>>>>> Stashed changes
 		vrLoc = 0;
 	};
 	0352D8401467D7BB0050D784 /* PBXTextBookmark */ = {
@@ -524,6 +545,7 @@
 					PBXFileDataSource_Warnings_ColumnID,
 				);
 			};
+<<<<<<< Updated upstream
 			PBXPerProjectTemplateStateSaveDate = 342345296;
 			PBXWorkspaceStateSaveDate = 342345296;
 		};
@@ -556,6 +578,33 @@
 			03E9040C1466A20E00A00E3E = 03E9040C1466A20E00A00E3E /* PBXTextBookmark */;
 			03E9047314670AEC00A00E3E = 03E9047314670AEC00A00E3E /* PBXTextBookmark */;
 			03E9047414670AEC00A00E3E = 03E9047414670AEC00A00E3E /* PBXTextBookmark */;
+=======
+			PBXPerProjectTemplateStateSaveDate = 348040707;
+			PBXWorkspaceStateSaveDate = 348040707;
+		};
+		perUserProjectItems = {
+			037A464114BEAA0B00C38F1D /* PBXTextBookmark */ = 037A464114BEAA0B00C38F1D /* PBXTextBookmark */;
+			037A465D14BEACC100C38F1D /* PBXTextBookmark */ = 037A465D14BEACC100C38F1D /* PBXTextBookmark */;
+			03E901F61466884A00A00E3E /* PBXTextBookmark */ = 03E901F61466884A00A00E3E /* PBXTextBookmark */;
+			03E9020A1466893800A00E3E /* PBXTextBookmark */ = 03E9020A1466893800A00E3E /* PBXTextBookmark */;
+			03E9023414668A9500A00E3E /* PBXTextBookmark */ = 03E9023414668A9500A00E3E /* PBXTextBookmark */;
+			03E902711466989700A00E3E /* PBXTextBookmark */ = 03E902711466989700A00E3E /* PBXTextBookmark */;
+			03E902721466989700A00E3E /* PBXTextBookmark */ = 03E902721466989700A00E3E /* PBXTextBookmark */;
+			03E902731466989700A00E3E /* PBXTextBookmark */ = 03E902731466989700A00E3E /* PBXTextBookmark */;
+			03E902741466989700A00E3E /* PBXTextBookmark */ = 03E902741466989700A00E3E /* PBXTextBookmark */;
+			03E9032814669B8D00A00E3E /* PBXTextBookmark */ = 03E9032814669B8D00A00E3E /* PBXTextBookmark */;
+			03E9037614669CE200A00E3E /* PBXTextBookmark */ = 03E9037614669CE200A00E3E /* PBXTextBookmark */;
+			03E9037714669CE200A00E3E /* PBXTextBookmark */ = 03E9037714669CE200A00E3E /* PBXTextBookmark */;
+			03E9037814669CE200A00E3E /* PBXTextBookmark */ = 03E9037814669CE200A00E3E /* PBXTextBookmark */;
+			03E904071466A20E00A00E3E /* PBXTextBookmark */ = 03E904071466A20E00A00E3E /* PBXTextBookmark */;
+			03E904081466A20E00A00E3E /* PBXTextBookmark */ = 03E904081466A20E00A00E3E /* PBXTextBookmark */;
+			03E904091466A20E00A00E3E /* PBXTextBookmark */ = 03E904091466A20E00A00E3E /* PBXTextBookmark */;
+			03E9040A1466A20E00A00E3E /* PBXTextBookmark */ = 03E9040A1466A20E00A00E3E /* PBXTextBookmark */;
+			03E9040B1466A20E00A00E3E /* PBXTextBookmark */ = 03E9040B1466A20E00A00E3E /* PBXTextBookmark */;
+			03E9040C1466A20E00A00E3E /* PBXTextBookmark */ = 03E9040C1466A20E00A00E3E /* PBXTextBookmark */;
+			03E9047314670AEC00A00E3E /* PBXTextBookmark */ = 03E9047314670AEC00A00E3E /* PBXTextBookmark */;
+			03E9047414670AEC00A00E3E /* PBXTextBookmark */ = 03E9047414670AEC00A00E3E /* PBXTextBookmark */;
+>>>>>>> Stashed changes
 		};
 		sourceControlManager = 03E9FF231466806400A00E3E /* Source Control */;
 		userBuildSettings = {
@@ -577,9 +626,9 @@
 	};
 	03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {6179, 743}}";
-			sepNavSelRange = "{33, 0}";
-			sepNavVisRange = "{0, 1597}";
+			sepNavIntBoundsRect = "{{0, 0}, {24148, 611}}";
+			sepNavSelRange = "{5295, 0}";
+			sepNavVisRange = "{0, 975}";
 		};
 	};
 	03E9FF7B1466857C00A00E3E /* pcl_base.h */ = {
