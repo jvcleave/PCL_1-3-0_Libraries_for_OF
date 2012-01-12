@@ -283,6 +283,20 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		037A46A214BEB07700C38F1D /* pcl_common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A314BEB07700C38F1D /* pcl_octree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_octree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A414BEB07700C38F1D /* pcl_io.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_io.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A514BEB07700C38F1D /* pcl_sample_consensus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_sample_consensus.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A614BEB07700C38F1D /* pcl_kdtree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_kdtree.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A714BEB07700C38F1D /* pcl_search.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_search.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A814BEB07700C38F1D /* pcl_filters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_filters.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46A914BEB07700C38F1D /* pcl_segmentation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_segmentation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AA14BEB07700C38F1D /* pcl_range_image.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_range_image.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AB14BEB07700C38F1D /* pcl_features.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_features.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AC14BEB07700C38F1D /* pcl_range_image_border_extractor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_range_image_border_extractor.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AD14BEB07700C38F1D /* pcl_surface.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_surface.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AE14BEB07700C38F1D /* pcl_registration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_registration.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		037A46AF14BEB07700C38F1D /* pcl_keypoints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_keypoints.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E900001466857C00A00E3E /* rsd.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = rsd.cpp; path = "pcl_1-3-0/features/src/rsd.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900011466857C00A00E3E /* shot.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shot.cpp; path = "pcl_1-3-0/features/src/shot.cpp"; sourceTree = SOURCE_ROOT; };
 		03E900021466857C00A00E3E /* shot_omp.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = shot_omp.cpp; path = "pcl_1-3-0/features/src/shot_omp.cpp"; sourceTree = SOURCE_ROOT; };
@@ -633,9 +647,6 @@
 		03E901BE1466857C00A00E3E /* texture_mapping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = texture_mapping.cpp; path = "pcl_1-3-0/surface/src/texture_mapping.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901BF1466857C00A00E3E /* vtk_smoother.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = vtk_smoother.cpp; path = "pcl_1-3-0/surface/src/vtk_smoother.cpp"; sourceTree = SOURCE_ROOT; };
 		03E901C21466857C00A00E3E /* surface_example.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = surface_example.cpp; path = "pcl_1-3-0/surface/test/surface_example.cpp"; sourceTree = SOURCE_ROOT; };
-		03E901C7146685D800A00E3E /* pcl_common.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_common.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E901FC146688AD00A00E3E /* pcl_octree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_octree.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E902071466891D00A00E3E /* pcl_io.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_io.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E9029D146698C400A00E3E /* libMapReduceMPI.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libMapReduceMPI.a; path = "3rdPartyLibs/vtk_5-8/libs/libMapReduceMPI.a"; sourceTree = SOURCE_ROOT; };
 		03E9029E146698C400A00E3E /* libmpistubs.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libmpistubs.a; path = "3rdPartyLibs/vtk_5-8/libs/libmpistubs.a"; sourceTree = SOURCE_ROOT; };
 		03E9029F146698C400A00E3E /* libvtkalglib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkalglib.a; path = "3rdPartyLibs/vtk_5-8/libs/libvtkalglib.a"; sourceTree = SOURCE_ROOT; };
@@ -671,20 +682,9 @@
 		03E902BD146698C400A00E3E /* libvtkVolumeRendering.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkVolumeRendering.a; path = "3rdPartyLibs/vtk_5-8/libs/libvtkVolumeRendering.a"; sourceTree = SOURCE_ROOT; };
 		03E902BE146698C400A00E3E /* libvtkWidgets.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkWidgets.a; path = "3rdPartyLibs/vtk_5-8/libs/libvtkWidgets.a"; sourceTree = SOURCE_ROOT; };
 		03E902BF146698C400A00E3E /* libvtkzlib.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libvtkzlib.a; path = "3rdPartyLibs/vtk_5-8/libs/libvtkzlib.a"; sourceTree = SOURCE_ROOT; };
-		03E902EB14669AAF00A00E3E /* pcl_sample_consensus.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_sample_consensus.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9031E14669B4A00A00E3E /* pcl_kdtree.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_kdtree.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9033714669BED00A00E3E /* pcl_search.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_search.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9034714669C3100A00E3E /* pcl_filters.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_filters.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9036D14669C9D00A00E3E /* pcl_segmentation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_segmentation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9038614669CF900A00E3E /* pcl_range_image.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_range_image.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E9039C14669E5C00A00E3E /* pcl_features.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_features.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E903E21466A0DF00A00E3E /* pcl_range_image_border_extractor.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_range_image_border_extractor.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E903F01466A1B000A00E3E /* pcl_surface.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_surface.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E904131466A28100A00E3E /* libqhullcpp.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqhullcpp.a; path = "3rdPartyLibs/qhull-2011.1/lib/libqhullcpp.a"; sourceTree = SOURCE_ROOT; };
 		03E904141466A28100A00E3E /* libqhullstatic.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqhullstatic.a; path = "3rdPartyLibs/qhull-2011.1/lib/libqhullstatic.a"; sourceTree = SOURCE_ROOT; };
 		03E904151466A28100A00E3E /* libqhullstatic_p.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libqhullstatic_p.a; path = "3rdPartyLibs/qhull-2011.1/lib/libqhullstatic_p.a"; sourceTree = SOURCE_ROOT; };
-		03E904301466A2DA00A00E3E /* pcl_registration.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_registration.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		03E904421466A33B00A00E3E /* pcl_keypoints.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = pcl_keypoints.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = PCL_LIBS.xcconfig; sourceTree = "<group>"; };
 		03E9FF491466857C00A00E3E /* angles.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = angles.h; path = "pcl_1-3-0/common/include/pcl/common/angles.h"; sourceTree = SOURCE_ROOT; };
 		03E9FF4A1466857C00A00E3E /* bivariate_polynomial.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = bivariate_polynomial.h; path = "pcl_1-3-0/common/include/pcl/common/bivariate_polynomial.h"; sourceTree = SOURCE_ROOT; };
@@ -2014,20 +2014,20 @@
 		03E901C8146685D800A00E3E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				03E901C7146685D800A00E3E /* pcl_common.a */,
-				03E901FC146688AD00A00E3E /* pcl_octree.a */,
-				03E902071466891D00A00E3E /* pcl_io.a */,
-				03E902EB14669AAF00A00E3E /* pcl_sample_consensus.a */,
-				03E9031E14669B4A00A00E3E /* pcl_kdtree.a */,
-				03E9033714669BED00A00E3E /* pcl_search.a */,
-				03E9034714669C3100A00E3E /* pcl_filters.a */,
-				03E9036D14669C9D00A00E3E /* pcl_segmentation.a */,
-				03E9038614669CF900A00E3E /* pcl_range_image.a */,
-				03E9039C14669E5C00A00E3E /* pcl_features.a */,
-				03E903E21466A0DF00A00E3E /* pcl_range_image_border_extractor.a */,
-				03E903F01466A1B000A00E3E /* pcl_surface.a */,
-				03E904301466A2DA00A00E3E /* pcl_registration.a */,
-				03E904421466A33B00A00E3E /* pcl_keypoints.a */,
+				037A46A214BEB07700C38F1D /* pcl_common.a */,
+				037A46A314BEB07700C38F1D /* pcl_octree.a */,
+				037A46A414BEB07700C38F1D /* pcl_io.a */,
+				037A46A514BEB07700C38F1D /* pcl_sample_consensus.a */,
+				037A46A614BEB07700C38F1D /* pcl_kdtree.a */,
+				037A46A714BEB07700C38F1D /* pcl_search.a */,
+				037A46A814BEB07700C38F1D /* pcl_filters.a */,
+				037A46A914BEB07700C38F1D /* pcl_segmentation.a */,
+				037A46AA14BEB07700C38F1D /* pcl_range_image.a */,
+				037A46AB14BEB07700C38F1D /* pcl_features.a */,
+				037A46AC14BEB07700C38F1D /* pcl_range_image_border_extractor.a */,
+				037A46AD14BEB07700C38F1D /* pcl_surface.a */,
+				037A46AE14BEB07700C38F1D /* pcl_registration.a */,
+				037A46AF14BEB07700C38F1D /* pcl_keypoints.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -2587,7 +2587,7 @@
 			);
 			name = pcl_common;
 			productName = pcl_common;
-			productReference = 03E901C7146685D800A00E3E /* pcl_common.a */;
+			productReference = 037A46A214BEB07700C38F1D /* pcl_common.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E901FB146688AD00A00E3E /* pcl_octree */ = {
@@ -2604,7 +2604,7 @@
 			);
 			name = pcl_octree;
 			productName = pcl_octree;
-			productReference = 03E901FC146688AD00A00E3E /* pcl_octree.a */;
+			productReference = 037A46A314BEB07700C38F1D /* pcl_octree.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E902061466891D00A00E3E /* pcl_io */ = {
@@ -2621,7 +2621,7 @@
 			);
 			name = pcl_io;
 			productName = pcl_io;
-			productReference = 03E902071466891D00A00E3E /* pcl_io.a */;
+			productReference = 037A46A414BEB07700C38F1D /* pcl_io.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E902EA14669AAF00A00E3E /* pcl_sample_consensus */ = {
@@ -2638,7 +2638,7 @@
 			);
 			name = pcl_sample_consensus;
 			productName = pcl_sample_consensus;
-			productReference = 03E902EB14669AAF00A00E3E /* pcl_sample_consensus.a */;
+			productReference = 037A46A514BEB07700C38F1D /* pcl_sample_consensus.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9030414669B4A00A00E3E /* pcl_kdtree */ = {
@@ -2655,7 +2655,7 @@
 			);
 			name = pcl_kdtree;
 			productName = pcl_sample_consensus;
-			productReference = 03E9031E14669B4A00A00E3E /* pcl_kdtree.a */;
+			productReference = 037A46A614BEB07700C38F1D /* pcl_kdtree.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9032F14669BED00A00E3E /* pcl_search */ = {
@@ -2672,7 +2672,7 @@
 			);
 			name = pcl_search;
 			productName = pcl_sample_consensus;
-			productReference = 03E9033714669BED00A00E3E /* pcl_search.a */;
+			productReference = 037A46A714BEB07700C38F1D /* pcl_search.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9033D14669C3100A00E3E /* pcl_filters */ = {
@@ -2689,7 +2689,7 @@
 			);
 			name = pcl_filters;
 			productName = pcl_sample_consensus;
-			productReference = 03E9034714669C3100A00E3E /* pcl_filters.a */;
+			productReference = 037A46A814BEB07700C38F1D /* pcl_filters.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9035814669C9D00A00E3E /* pcl_segmentation */ = {
@@ -2706,7 +2706,7 @@
 			);
 			name = pcl_segmentation;
 			productName = pcl_sample_consensus;
-			productReference = 03E9036D14669C9D00A00E3E /* pcl_segmentation.a */;
+			productReference = 037A46A914BEB07700C38F1D /* pcl_segmentation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9037B14669CF900A00E3E /* pcl_range_image */ = {
@@ -2723,7 +2723,7 @@
 			);
 			name = pcl_range_image;
 			productName = pcl_sample_consensus;
-			productReference = 03E9038614669CF900A00E3E /* pcl_range_image.a */;
+			productReference = 037A46AA14BEB07700C38F1D /* pcl_range_image.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9039314669E5C00A00E3E /* pcl_features */ = {
@@ -2740,7 +2740,7 @@
 			);
 			name = pcl_features;
 			productName = pcl_sample_consensus;
-			productReference = 03E9039C14669E5C00A00E3E /* pcl_features.a */;
+			productReference = 037A46AB14BEB07700C38F1D /* pcl_features.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E903BD1466A0DF00A00E3E /* pcl_range_image_border_extractor */ = {
@@ -2757,7 +2757,7 @@
 			);
 			name = pcl_range_image_border_extractor;
 			productName = pcl_sample_consensus;
-			productReference = 03E903E21466A0DF00A00E3E /* pcl_range_image_border_extractor.a */;
+			productReference = 037A46AC14BEB07700C38F1D /* pcl_range_image_border_extractor.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E903E71466A1B000A00E3E /* pcl_surface */ = {
@@ -2774,7 +2774,7 @@
 			);
 			name = pcl_surface;
 			productName = pcl_sample_consensus;
-			productReference = 03E903F01466A1B000A00E3E /* pcl_surface.a */;
+			productReference = 037A46AD14BEB07700C38F1D /* pcl_surface.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E9041B1466A2DA00A00E3E /* pcl_registration */ = {
@@ -2791,7 +2791,7 @@
 			);
 			name = pcl_registration;
 			productName = pcl_sample_consensus;
-			productReference = 03E904301466A2DA00A00E3E /* pcl_registration.a */;
+			productReference = 037A46AE14BEB07700C38F1D /* pcl_registration.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 		03E904381466A33B00A00E3E /* pcl_keypoints */ = {
@@ -2808,7 +2808,7 @@
 			);
 			name = pcl_keypoints;
 			productName = pcl_sample_consensus;
-			productReference = 03E904421466A33B00A00E3E /* pcl_keypoints.a */;
+			productReference = 037A46AF14BEB07700C38F1D /* pcl_keypoints.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -3205,6 +3205,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 			};
 			name = Debug;
@@ -3218,6 +3219,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
 				PREBINDING = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
 				ZERO_LINK = NO;
 			};
@@ -3256,16 +3258,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3274,6 +3273,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3287,16 +3288,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3305,6 +3303,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3316,18 +3316,16 @@
 		};
 		03E9033514669BED00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3336,6 +3334,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3347,18 +3347,16 @@
 		};
 		03E9034514669C3100A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3367,6 +3365,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3378,18 +3378,16 @@
 		};
 		03E9036B14669C9D00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3398,6 +3396,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				GCC_ENABLE_FIX_AND_CONTINUE = NO;
@@ -3409,18 +3409,16 @@
 		};
 		03E9038414669CF900A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3429,6 +3427,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_OPENMP_SUPPORT = YES;
@@ -3441,18 +3441,16 @@
 		};
 		03E9039A14669E5C00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3461,6 +3459,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_OPENMP_SUPPORT = YES;
@@ -3473,18 +3473,16 @@
 		};
 		03E903E01466A0DF00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3493,6 +3491,8 @@
 			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
 				COPY_PHASE_STRIP = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_OPENMP_SUPPORT = YES;
@@ -3505,18 +3505,14 @@
 		};
 		03E903EE1466A1B000A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3537,18 +3533,14 @@
 		};
 		03E9042E1466A2DA00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
@@ -3569,18 +3561,14 @@
 		};
 		03E904401466A33B00A00E3E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 03E9FF261466807700A00E3E /* PCL_LIBS.xcconfig */;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				PREBINDING = NO;
-<<<<<<< Updated upstream
-				PRODUCT_NAME = pcl_sample_consensus;
-				SDKROOT = iphoneos;
-=======
 				SDKROOT = "$(DEVELOPER_SDK_DIR)/MacOSX10.6.sdk";
->>>>>>> Stashed changes
 			};
 			name = Debug;
 		};
